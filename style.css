@@ -1,0 +1,74 @@
+table{
+	margin-top: 50px;
+	text-align: center;
+	border: 10px;
+	border-color: solid black;
+	border-collapse: collapse;
+}
+div label{
+	font-size:20px;
+}
+div input{
+	display: block;
+	width: 20%;
+	height: 30px;
+	font-size: 16px;
+	
+}
+#show td{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: rgb(112, 153, 153);
+}
+
+.btn input{
+	margin-top:2%;
+	padding: 10px;
+	width: 10%;
+	border: 1px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+	background: linear-gradient(
+		90deg,
+		rgb(207, 189, 119) 0%,
+		rgb(143, 119, 184) 100%
+	);
+	color: #fff;
+	
+	text-transform: capitalize;
+
+}
+.btn input:hover{
+	background: linear-gradient(
+	  90deg,
+	  rgb(195, 0, 255) 0%,
+	  rgb(255, 2, 99) 100%
+	);
+  }
+
+
+#show th{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	background: linear-gradient(
+    90deg,
+    rgb(142, 202, 231) 0%,
+    rgb(103, 143, 202) 100%
+    
+  );
+}
+
+body{
+	background: linear-gradient(
+    90deg,
+    rgb(130, 47, 129) 0%,
+    rgb(27, 36, 122) 100%
+    
+  );
+}
